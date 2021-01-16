@@ -5,9 +5,9 @@
     "description": "automatically generates a start and end site, user needs to navigate it.",
     "permissions": [
         "activeTab", // For the current tab 
-        "browsingData", // For the tabs clicked
-        "contextMenus",
-        "tabs"
+        "storage", // For the tabs clicked
+        "declarativeContent",
+        "tabs" 
     ],
     "background": {
         "scripts": ["js/background.js"]
