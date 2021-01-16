@@ -1,0 +1,12 @@
+
+
+.buttonColor {
+  height: 60px;
+  width: 100px;
+  outline: none;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #F0543C;
+}
+h1 {
+  text-decoration-color: aqua;
+}
