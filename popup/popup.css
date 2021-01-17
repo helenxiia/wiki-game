@@ -34,24 +34,22 @@ h2 {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-size: 10px;
-  width: 300px;
   
 }
 
 .arrowset {
   display: flex;
+  justify-content: center;
   color: #ef5b48;
   font-family: 'Press Start 2P', cursive;
   font-size: 16px;
-}
-
-.arrowset {
   animation-duration: 1.5s, 0.75s;
   animation-name: slidein, scale;
   animation-iteration-count: 1, infinite;
   animation-direction: alternate;
-  animation-delay: 0s, 1.5s;
+  animation-delay: 0s, 1s;
 }
+
 
 @keyframes slidein {
   from {
