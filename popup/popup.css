@@ -1,7 +1,7 @@
 
 button {
   height: 60px;
-  width: 100px;
+  width: 120px;
   outline: none;
   font-family: 'Press Start 2P', cursive;
   background-color: #F0543C;
@@ -9,13 +9,33 @@ button {
   margin: 0 auto;
   display: block;
 }
+
+button:hover {
+  background-color: #EC8465; /* Green */
+  color: #ffffde;
+}
+
 h1 {
   color: #ac4141;
   text-align: center;
-  font-family:  'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', cursive;
   font-size: 16px;
-  stroke: black;
-  stroke-width: 6px;
+}
+body{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all 400ms;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  width: 300px;
+  
 }
 
 .arrowset {
