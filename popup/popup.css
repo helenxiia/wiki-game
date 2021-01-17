@@ -9,6 +9,12 @@ button {
   margin: 0 auto;
   display: block;
 }
+
+button:hover {
+  background-color: #EC8465; /* Green */
+  color: #ffffde;
+}
+
 h1 {
   color: #ac4141;
   text-align: center;
