@@ -37,3 +37,38 @@ h2 {
   width: 300px;
   
 }
+
+.arrowset {
+  display: flex;
+  color: #ef5b48;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+}
+
+.arrowset {
+  animation-duration: 1.5s, 0.75s;
+  animation-name: slidein, scale;
+  animation-iteration-count: 1, infinite;
+  animation-direction: alternate;
+  animation-delay: 0s, 1.5s;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1.0);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
