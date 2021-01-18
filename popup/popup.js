@@ -1,9 +1,8 @@
-document.getElementById("myButton").addEventListener("click", displayArticles);
+document.getElementById("myFirstButton").addEventListener("click", printLog);
 
-function displayArticles() {
-  chrome.tabs.getSelected(null, function(tab) { //<-- "tab" has all the information
-  console.log(tab.url);       //returns the url
-  console.log(tab.title);     //returns the title
-});
-      }
+function printLog() {
+    console.log("hello ur mom1")
+}
+
+
 

@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "wikipedia link race game",
+    "name": "Racepedia",
     "version": "1.0",
     "description": "automatically generates a start and end site, user needs to navigate it.",
     "permissions": [
@@ -18,6 +18,12 @@
         "default_popup": "popup/popup.html",
         "default_icon" : "images/icon.png"
     },
+    "content_scripts": [
+        {
+          "matches": ["http://*.nytimes.com/*"],
+          "js": ["popup/contentScript.js"]
+        }
+      ],
     "icons": {
         "16": "images/icon.png",
         "32": "images/icon.png",
